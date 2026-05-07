@@ -13,7 +13,6 @@ enum Group{
     AlkalineEarth,
     Metalloid,
     Halogen,
-    NobleGas,
     TransitionMetal,
     PostTransitionMetal,
     Lanthanide,
@@ -26,7 +25,7 @@ enum State{
     Solid,
     Liquid,
     Gas,
-    Unknown,
+    State_Unknown,
 };
 
 //块属性
@@ -35,7 +34,7 @@ enum Block{
     P,
     D,
     F,
-    Unknown,
+    Block_Unknown,
 };
 
 //未知内容

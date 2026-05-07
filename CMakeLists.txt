@@ -9,7 +9,7 @@ set(LVGL_PRO_PROJECT_DIR
     CACHE PATH "Path to LVGL Pro Project folder")
 
 # Main include files of the project
-include_directories(${PROJECT_SOURCE_DIR}/user_app/inc)
+include_directories(${USER_APP_INC_DIR})
 include_directories(${PROJECT_SOURCE_DIR}/lib/lv_port_pc_vscode)
 
 set(LV_BUILD_CONF_DIR "${PROJECT_SOURCE_DIR}/user_app/inc" CACHE PATH "Include dir containing lv_conf.h")
@@ -43,12 +43,14 @@ add_compile_definitions($<$<BOOL:${LV_USE_FFMPEG}>:LV_USE_FFMPEG=1>)
 
 # Add LVGL subdirectory
 add_subdirectory(${PROJECT_SOURCE_DIR}/lib/lv_port_pc_vscode/lvgl)
+add_subdirectory(${PROJECT_SOURCE_DIR}/user_app)
+
 target_include_directories(lvgl PUBLIC ${SDL2_INCLUDE_DIRS})
 
-set(MAIN_SOURCES user_app/src/mouse_cursor_icon.c user_app/src/hal/hal.c)
+#set(MAIN_SOURCES src/mouse_cursor_icon.c src/hal/hal.c)
 set(MAIN_LIBS lvgl lvgl::examples lvgl::demos lvgl::thorvg ${SDL2_LIBRARIES})
 
-list(APPEND MAIN_SOURCES user_app/src/main.c)
+list(APPEND MAIN_SOURCES ${USER_APP_SRCS})#src/main.c 
 
 if(NOT MSVC)
     list(APPEND MAIN_LIBS m pthread)
