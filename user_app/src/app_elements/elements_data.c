@@ -77,21 +77,7 @@ ElementData elementData[] = {
 {54,"Xe","氙",132,131.29,2.6,136,-111.75,-108.099,0.005761,0,1170.347674,NobleGas,Gas, P},    
 {55,"Cs","铯",133,132.91,0.79,238,28.5,671,1.8785,45.50498707,375.7042003,Alkali,Solid, S},    
 {56,"Ba","钡",138,137.33,0.89,206,727,1845,3.51,13.95370745,502.8525593,AlkalineEarth,Solid, S},    
-{57,"La","镧",139,138.91,1.1,194,920,3464,6.162,45.34810194,538.0889993,Lanthanide,Solid, F},    
-{58,"Ce","铈",140,140.12,1.12,184,799,3443,6.773,62.71546013,534.40326,Lanthanide,Solid, F},    
-{59,"Pr","镨",141,140.91,1.13,190,931,3520,6.475,92.81888099,528.0641743,Lanthanide,Solid, F},    
-{60,"Nd","钕",142,144.24,1.14,188,1016,3074,7.01, k_unknown,533.0814111,Lanthanide,Solid, F},    
-{61,"Pm","钷",145, k_unknown, k_unknown,186,1042,3000,7.22, k_unknown,538.5810745,Lanthanide,Solid, F},    
-{62,"Sm","钐",152,150.36,1.17,185,1072,1794,7.52, k_unknown,544.5342189,Lanthanide,Solid, F},    
-{63,"Eu","铕",153,151.96, k_unknown,183,822,1529,5.244,83.36331931,547.1103771,Lanthanide,Solid, F},    
-{64,"Gd","钆",158,157.25,1.2,182,1313,3273,7.9, k_unknown,593.3654411,Lanthanide,Solid, F},    
-{65,"Tb","铽",159,158.93, k_unknown,181,1359,3230,8.23, k_unknown,565.7706386,Lanthanide,Solid, F},    
-{66,"Dy","镝",164,162.5,1.22,180,1412,2567,8.54, k_unknown,573.0166864,Lanthanide,Solid, F},    
-{67,"Ho","钬",165,164.93,1.23,179,1472,2700,8.79, k_unknown,580.9863741,Lanthanide,Solid, F},    
-{68,"Er","铒",166,167.26,1.24,177,1529,2868,9.066, k_unknown,589.3034089,Lanthanide,Solid, F},    
-{69,"Tm","铥",169,168.93,1.25,177,1545,1950,9.32,99.28339765,596.6941847,Lanthanide,Solid, F},    
-{70,"Yb","镱",174,173.05, k_unknown,178,824,1196,6.9,-1.929706465,603.4385088,Lanthanide,Solid, F},    
-{71,"Lu","镥",175,174.97,1,174,1663,3402,9.841,32.80500991,523.5197155,Lanthanide,Solid, D},    
+ 
 {72,"Hf","铪",180,178.49,1.3,164,2233,4600,13.31,1.350794526,658.5219799,TransitionMetal,Solid, D},    
 {73,"Ta","钽",181,180.95,1.5,158,3017,5455,16.69,31.06827409,728.4255966,TransitionMetal,Solid, D},    
 {74,"W","钨",184,183.84,1.7,150,3414,5555,19.25,78.75710997,758.7605822,TransitionMetal,Solid, D},    
@@ -109,21 +95,7 @@ ElementData elementData[] = {
 {86,"Rn","氡",222, k_unknown, k_unknown,146,-71,-61.00973,0.00973, k_affinityUnstable,1037.072497,NobleGas,Gas, P},    
 {87,"Fr","钫",223, k_unknown,0.7,242,21,k_unknown, k_unknown,44.3832487,392.9557761,Alkali,Solid, S},    
 {88,"Ra","镭",226, k_unknown,0.9,211,696,k_unknown,5.5, k_unknown,509.2881304,AlkalineEarth,Solid, S},    
-{89,"Ac","锕",227, k_unknown,1.1,201,1050,3200,10.07,33.76986314,519.1585789,Actinide,Solid, F},    
-{90,"Th","钍",232,232.04,1.3,190,1750,4785,11.7, k_unknown,608.5039883,Actinide,Solid, F},    
-{91,"Pa","镤",231,231.04,1.5,184,1572,k_unknown,15.37, k_unknown,568.2985541,Actinide,Solid, F},    
-{92,"U","铀",238,238.03,1.7,183,1135,4131,19.1, k_unknown,597.6204438,Actinide,Solid, F},    
-{93,"Np","镎",237, k_unknown,1.3,180,644,3902,20.2, k_unknown,604.54809,Actinide,Solid, F},    
-{94,"Pu","钚",244, k_unknown,1.3,180,640,3228,19.816, k_unknown,581.420558,Actinide,Solid, F},    
-{95,"Am","镅",243, k_unknown,1.3,173,1176,2011,12, k_unknown,576.3840242,Actinide,Solid, F},    
-{96,"Cm","锔",247, k_unknown,1.3,168,1345,k_unknown,13.51, k_unknown,578.0821658,Actinide,Solid, F},    
-{97,"Bk","锫",247, k_unknown,1.3,168,986,k_unknown,14.78, k_unknown,598.0063851,Actinide,Solid, F},    
-{98,"Cf","锎",251, k_unknown,1.3,168,900,k_unknown, k_unknown, k_unknown,606.0918552,Actinide,Solid, F},    
-{99,"Es","锿", k_AUnknown, k_unknown,1.3,165,860, k_unknown,8.84, k_unknown,614.3799445,Actinide,Solid, F},    
-{100,"Fm","镄",257, k_unknown,1.3,167,1527,k_unknown, k_unknown, k_unknown,627.1546013,Actinide,Solid, F},    
-{101,"Md","钔",258, k_unknown,1.3,173,827,k_unknown, k_unknown, k_unknown,634.8734271,Actinide,Solid, F},    
-{102,"No","锘",259, k_unknown,1.3,176,827,k_unknown, k_unknown, k_unknown,641.6273998,Actinide,Solid, F},    
-{103,"Lr","铹",262, k_unknown, k_unknown,161,1627, k_unknown, k_unknown, k_unknown,478.5672034,Actinide,Solid, D},    
+
 {104,"Rf","𬬻",261, k_unknown, k_unknown,157,k_unknown, k_unknown, k_unknown, k_unknown,578.9119396,TransitionMetal,Solid, D},    
 {105,"Db","𬭊",262, k_unknown, k_unknown,149,k_unknown, k_unknown, k_unknown, k_unknown, k_unknown,TransitionMetal,Solid, D},    
 {106,"Sg","𬭳",263, k_unknown, k_unknown,143,k_unknown, k_unknown, k_unknown, k_unknown, k_unknown,TransitionMetal,Solid, D},    
@@ -140,4 +112,96 @@ ElementData elementData[] = {
 {117,"Ts","Ts", k_AUnknown, k_unknown,k_unknown,165, k_unknown, k_unknown, k_unknown, k_unknown,k_unknown,Unidentified,Solid,P},    
 {118,"Og","Og", k_AUnknown, k_unknown,k_unknown,157, k_unknown, k_unknown, k_unknown,5.403178103, k_unknown,Unidentified,Solid, P},    
 
+{57,"La","镧",139,138.91,1.1,194,920,3464,6.162,45.34810194,538.0889993,Lanthanide,Solid, F},    
+{58,"Ce","铈",140,140.12,1.12,184,799,3443,6.773,62.71546013,534.40326,Lanthanide,Solid, F},    
+{59,"Pr","镨",141,140.91,1.13,190,931,3520,6.475,92.81888099,528.0641743,Lanthanide,Solid, F},    
+{60,"Nd","钕",142,144.24,1.14,188,1016,3074,7.01, k_unknown,533.0814111,Lanthanide,Solid, F},    
+{61,"Pm","钷",145, k_unknown, k_unknown,186,1042,3000,7.22, k_unknown,538.5810745,Lanthanide,Solid, F},    
+{62,"Sm","钐",152,150.36,1.17,185,1072,1794,7.52, k_unknown,544.5342189,Lanthanide,Solid, F},    
+{63,"Eu","铕",153,151.96, k_unknown,183,822,1529,5.244,83.36331931,547.1103771,Lanthanide,Solid, F},    
+{64,"Gd","钆",158,157.25,1.2,182,1313,3273,7.9, k_unknown,593.3654411,Lanthanide,Solid, F},    
+{65,"Tb","铽",159,158.93, k_unknown,181,1359,3230,8.23, k_unknown,565.7706386,Lanthanide,Solid, F},    
+{66,"Dy","镝",164,162.5,1.22,180,1412,2567,8.54, k_unknown,573.0166864,Lanthanide,Solid, F},    
+{67,"Ho","钬",165,164.93,1.23,179,1472,2700,8.79, k_unknown,580.9863741,Lanthanide,Solid, F},    
+{68,"Er","铒",166,167.26,1.24,177,1529,2868,9.066, k_unknown,589.3034089,Lanthanide,Solid, F},    
+{69,"Tm","铥",169,168.93,1.25,177,1545,1950,9.32,99.28339765,596.6941847,Lanthanide,Solid, F},    
+{70,"Yb","镱",174,173.05, k_unknown,178,824,1196,6.9,-1.929706465,603.4385088,Lanthanide,Solid, F},    
+{71,"Lu","镥",175,174.97,1,174,1663,3402,9.841,32.80500991,523.5197155,Lanthanide,Solid, D},   
+
+{89,"Ac","锕",227, k_unknown,1.1,201,1050,3200,10.07,33.76986314,519.1585789,Actinide,Solid, F},    
+{90,"Th","钍",232,232.04,1.3,190,1750,4785,11.7, k_unknown,608.5039883,Actinide,Solid, F},    
+{91,"Pa","镤",231,231.04,1.5,184,1572,k_unknown,15.37, k_unknown,568.2985541,Actinide,Solid, F},    
+{92,"U","铀",238,238.03,1.7,183,1135,4131,19.1, k_unknown,597.6204438,Actinide,Solid, F},    
+{93,"Np","镎",237, k_unknown,1.3,180,644,3902,20.2, k_unknown,604.54809,Actinide,Solid, F},    
+{94,"Pu","钚",244, k_unknown,1.3,180,640,3228,19.816, k_unknown,581.420558,Actinide,Solid, F},    
+{95,"Am","镅",243, k_unknown,1.3,173,1176,2011,12, k_unknown,576.3840242,Actinide,Solid, F},    
+{96,"Cm","锔",247, k_unknown,1.3,168,1345,k_unknown,13.51, k_unknown,578.0821658,Actinide,Solid, F},    
+{97,"Bk","锫",247, k_unknown,1.3,168,986,k_unknown,14.78, k_unknown,598.0063851,Actinide,Solid, F},    
+{98,"Cf","锎",251, k_unknown,1.3,168,900,k_unknown, k_unknown, k_unknown,606.0918552,Actinide,Solid, F},    
+{99,"Es","锿", k_AUnknown, k_unknown,1.3,165,860, k_unknown,8.84, k_unknown,614.3799445,Actinide,Solid, F},    
+{100,"Fm","镄",257, k_unknown,1.3,167,1527,k_unknown, k_unknown, k_unknown,627.1546013,Actinide,Solid, F},    
+{101,"Md","钔",258, k_unknown,1.3,173,827,k_unknown, k_unknown, k_unknown,634.8734271,Actinide,Solid, F},    
+{102,"No","锘",259, k_unknown,1.3,176,827,k_unknown, k_unknown, k_unknown,641.6273998,Actinide,Solid, F},    
+{103,"Lr","铹",262, k_unknown, k_unknown,161,1627, k_unknown, k_unknown, k_unknown,478.5672034,Actinide,Solid, D},    
 };
+ElementItemsPos element_data[ELEMENTS_ITEM_COUNT]= {0};
+void elements_data_itempost_init(void)
+{
+    //第一行
+    element_data[0].x = ELEMENTS_ITEM_STARTX;
+    element_data[0].y = ELEMENTS_ITEM_STARTY;
+
+    element_data[1].x = ELEMENTS_ITEM_STARTX + 17*ELEMENTS_ITEM_W + 17*ELEMENTS_ITEM_CONTEXT;
+    element_data[1].y = ELEMENTS_ITEM_STARTY;
+
+    //第二行
+    element_data[2].x = ELEMENTS_ITEM_STARTX ;
+    element_data[2].y = ELEMENTS_ITEM_STARTY + 1*ELEMENTS_ITEM_H + 1*ELEMENTS_ITEM_CONTEXT;
+
+    element_data[3].x = ELEMENTS_ITEM_STARTX + 1*ELEMENTS_ITEM_W + 1*ELEMENTS_ITEM_CONTEXT;
+    element_data[3].y = ELEMENTS_ITEM_STARTY + 1*ELEMENTS_ITEM_H + 1*ELEMENTS_ITEM_CONTEXT;
+
+    for(int i = 0; i <= 5 ; i++)
+    {
+        element_data[4 + i].x = ELEMENTS_ITEM_STARTX + (12 + i)*ELEMENTS_ITEM_W + (12 + i)*ELEMENTS_ITEM_CONTEXT;
+        element_data[4 + i].y = ELEMENTS_ITEM_STARTY + 1*ELEMENTS_ITEM_H + 1*ELEMENTS_ITEM_CONTEXT;
+    }
+
+    //第三行
+    element_data[10].x = ELEMENTS_ITEM_STARTX;
+    element_data[10].y = ELEMENTS_ITEM_STARTY + 2*ELEMENTS_ITEM_H + 2*ELEMENTS_ITEM_CONTEXT;
+
+    element_data[11].x = ELEMENTS_ITEM_STARTX + 1*ELEMENTS_ITEM_W + 1*ELEMENTS_ITEM_CONTEXT;
+    element_data[11].y = ELEMENTS_ITEM_STARTY + 2*ELEMENTS_ITEM_H + 2*ELEMENTS_ITEM_CONTEXT;
+    for(int i = 0; i <= 5 ; i++)
+    {
+        element_data[12 + i].x = ELEMENTS_ITEM_STARTX + (12 + i)*ELEMENTS_ITEM_W + (12 + i)*ELEMENTS_ITEM_CONTEXT;
+        element_data[12 + i].y = ELEMENTS_ITEM_STARTY + 2*ELEMENTS_ITEM_H + 2*ELEMENTS_ITEM_CONTEXT;
+    }
+
+    //第四 五  六 七行
+    int num = 0;
+    for(int j = 0; j < 4; j++)
+    {
+        for(int i = 0; i <= 17 ; i++)
+        {
+            
+            element_data[18 + num].x = ELEMENTS_ITEM_STARTX + i*ELEMENTS_ITEM_W + i*ELEMENTS_ITEM_CONTEXT;
+            element_data[18 + num].y = ELEMENTS_ITEM_STARTY + (3 + j)*ELEMENTS_ITEM_H + (3 + j)*ELEMENTS_ITEM_CONTEXT;
+            num ++;
+        }
+    }
+    num = 0;
+    //第八行
+    for(int j = 0; j < 2; j++)
+    {
+        for(int i = 0; i < 16 ; i++)
+        {
+            element_data[90 + num].x = 2*ELEMENTS_ITEM_STARTX + ELEMENTS_ITEM_W + i*ELEMENTS_ITEM_W + i*ELEMENTS_ITEM_CONTEXT;
+            element_data[90 + num].y = ELEMENTS_ITEM_STARTY + (7 + j)*ELEMENTS_ITEM_H + (7 + j)*ELEMENTS_ITEM_CONTEXT;
+            num ++;
+        }
+    }
+    
+    return;
+}

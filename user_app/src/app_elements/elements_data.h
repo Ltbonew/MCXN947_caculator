@@ -5,6 +5,22 @@
 #include <stdlib.h>
 #include <string.h>
 
+//未知内容
+#define k_unknown -1
+
+//质量数未知
+#define k_AUnknown -1
+
+//亲和力不稳定
+#define k_affinityUnstable -9999
+
+#define ELEMENTS_ITEM_STARTX 5
+#define ELEMENTS_ITEM_STARTY 25
+
+#define ELEMENTS_ITEM_COUNT 122
+#define ELEMENTS_ITEM_W 16
+#define ELEMENTS_ITEM_H 16
+#define ELEMENTS_ITEM_CONTEXT 1
 //族
 enum Group{
     Nonmetal,
@@ -37,14 +53,7 @@ enum Block{
     Block_Unknown,
 };
 
-//未知内容
-#define k_unknown -1
 
-//质量数未知
-#define k_AUnknown -1
-
-//亲和力不稳定
-#define k_affinityUnstable -9999
 
 // 定义元素数据结构
 typedef struct elementData_ {
@@ -74,6 +83,15 @@ typedef struct _menuState{
     unsigned int show_type; //页面显示类型
 } MenuState;
 
+//位置大小
+typedef struct _element_items_pos{ 
+    int x;
+    int y;
+}ElementItemsPos;
 
+extern ElementItemsPos element_data[ELEMENTS_ITEM_COUNT];
+extern ElementData elementData[];
+
+void elements_data_itempost_init(void);
 
 #endif
